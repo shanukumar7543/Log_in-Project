@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.shanu{
+  width: 500px;
+  height: 600px;
+  background-color:rgb(29, 29, 195);
+}
+.sinha{
+  height: 40px;
+  width: 100px;
+  /* margin-right: 100px; */
+  margin-bottom: 0px;
+  background-color: rgb(247, 19, 27);
+
+}
+.mob{
+  color: #f913ed;
+}
+.row{
+  height: 30px;
+  width:25 px;
+  background-color: rgb(18, 130, 229);
+  color: black;
+}
+.prince{
+  height: 40px;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 0px;
+
+  background-color: rgb(53, 226, 18);
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
